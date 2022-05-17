@@ -10,6 +10,10 @@
     --cal_acua: #9adcdc;
 }
 
+body {
+    background: var(--cal_acua);
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -38,17 +42,14 @@ ul {
 }
 
 .wrap .header {
-    background-image: url(../images/BG-Logo.png);
     background-size: cover;
     background-position: center;
-    padding: 2rem 0;
     position: relative;
 }
 
 .wrap .header img {
     display: block;
     margin: 0 auto;
-    width: 80%;
 }
 
 .header h1 {
@@ -78,7 +79,7 @@ ul {
     font-family: 'Anton', sans-serif;
 }
 
-.sub_header p {
+.sub_header h1 {
     font-size: 15px;
     color: #000b49;
     font-weight: 700;
@@ -116,7 +117,7 @@ ul {
 .servicios ul li {
     position: relative;
     line-height: 1;
-    margin: 15px;
+    margin: 25px 15px;
 }
 
 .servicios ul li::after {
@@ -161,4 +162,53 @@ footer {
     background-image: url(../images/BG-Logo.png);
     background-position: center;
     background-size: cover;
+}
+
+@media (min-width: 600px) {
+    * {
+        font-size: 16px !important;
+    }
+
+    .title {
+        font-size: 2rem !important;
+    }
+
+    .header h1 {
+        font-size: 21px !important;
+        position: absolute;
+        left: 43%;
+        bottom: 15%;
+        color: var(--cal_blue);
+        font-weight: 700;
+    }
+
+    .sub_header h2 {
+        font-size: 5.5rem !important;
+    }
+
+    .sub_header h1 {
+        font-size: 17px !important;
+    }
+
+    .sub_header {
+        padding: 2rem;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boiler {
+        width: 150px;
+    }
+
+    .text-red {
+        font-size: 2rem !important;
+        font-weight: 700;
+    }
+
+    .boiler_tres,
+    .boiler_dos {
+        width: 200px;
+    }
 }
