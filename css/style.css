@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+:root {
+    --cal_blue: #000b49;
+    --cal_acua: #9adcdc;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.wrap .header {
+    background-image: url(../images/BG-Logo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.wrap .header img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header h1 {
+    font-size: 14px;
+    position: absolute;
+    left: 40%;
+    bottom: 15%;
+    color: var(--cal_blue);
+}
+
+.bg_acua {
+    background-color: var(--cal_acua);
+    color: var(--cal_blue);
+}
+
+.sub_header {
+    background-image: url(../images/bg_boiler.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+
+.sub_header h2 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.sub_header p {
+    font-size: 15px;
+}
+
+.box_contact a {
+    display: block;
+    margin: 10px;
+    color: #333;
+    width: 80%;
+    font-size: 12px;
+}
+
+.box_contact .icon {
+    width: 40px;
+    display: inline-block;
+    margin-right: 5px;
+}
