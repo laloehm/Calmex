@@ -13,6 +13,10 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .wrap {
     max-width: 700px;
     margin: 0 auto;
@@ -73,4 +77,22 @@ a:hover {
     width: 40px;
     display: inline-block;
     margin-right: 5px;
+}
+
+.box_red {
+    background: #e00109;
+}
+
+.box_red img {
+    width: 40px;
+}
+
+.multimarca {
+    background-color: var(--cal_acua)
+}
+
+footer {
+    background-image: url(../images/BG-Logo.png);
+    background-position: center;
+    background-size: cover;
 }
