@@ -17,6 +17,15 @@ ul {
     list-style: none;
 }
 
+.title {
+    color: var(--cal_blue);
+}
+
+.text-red {
+    color: #e00109;
+    font-size: 1.5rem;
+}
+
 .wrap {
     max-width: 700px;
     margin: 0 auto;
@@ -89,6 +98,21 @@ ul {
 
 .multimarca {
     background-color: var(--cal_acua)
+}
+
+.boiler_tres,
+.boiler_dos {
+    position: absolute;
+    right: 0;
+    top: -60px;
+    width: 130px;
+}
+
+.boiler {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    bottom: 0;
 }
 
 footer {
