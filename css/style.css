@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 :root {
@@ -17,13 +18,18 @@ ul {
     list-style: none;
 }
 
+.row {
+    margin: 0;
+}
+
 .title {
     color: var(--cal_blue);
+    font-weight: 700;
 }
 
 .text-red {
     color: #e00109;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .wrap {
@@ -66,12 +72,16 @@ ul {
 }
 
 .sub_header h2 {
-    font-size: 4rem;
+    font-size: 5.5rem;
     line-height: 1;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
 }
 
 .sub_header p {
     font-size: 15px;
+    color: #000b49;
+    font-weight: 700;
 }
 
 .box_contact a {
@@ -79,7 +89,10 @@ ul {
     margin: 10px;
     color: #333;
     width: 80%;
-    font-size: 12px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .box_contact .icon {
@@ -96,6 +109,35 @@ ul {
     width: 40px;
 }
 
+.servicios {
+    color: #327da1;
+}
+
+.servicios ul li {
+    position: relative;
+    line-height: 1;
+    margin: 15px;
+}
+
+.servicios ul li::after {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: -15px;
+    top: 0;
+    background-image: url(../images/right-arrow.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.servicios .asterisco {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
 .multimarca {
     background-color: var(--cal_acua)
 }
@@ -105,7 +147,7 @@ ul {
     position: absolute;
     right: 0;
     top: -60px;
-    width: 130px;
+    width: 100px;
 }
 
 .boiler {
