@@ -199,7 +199,8 @@ footer {
     }
 
     .boiler {
-        width: 150px;
+        width: 180px;
+        bottom: -50px;
     }
 
     .text-red {
