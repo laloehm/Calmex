@@ -159,6 +159,28 @@ ul {
     bottom: 0;
 }
 
+.box_carousel .marco {
+    position: absolute;
+    top: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 30px;
+    height: 30px;
+    bottom: 5px;
+    top: auto;
+    opacity: 1;
+}
+
+.carousel-control-next {
+    right: 40%;
+}
+
+.carousel-control-prev {
+    left: 40%;
+}
+
 footer {
     background-image: url(../images/BG-Logo.png);
     background-position: center;
