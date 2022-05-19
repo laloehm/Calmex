@@ -43,6 +43,7 @@ ul {
 }
 
 .wrap .header {
+    background-image: url(../images/BG-Logo.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -191,6 +192,70 @@ footer img {
     width: 120px;
 }
 
+/* RESPONSIVE */
+
+@media(max-width: 599px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        bottom: 15px;
+    }
+}
+
+@media(max-width: 539px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        bottom: 8px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .boiler_tres,
+    .boiler_dos {
+        position: absolute;
+        right: 0;
+        top: -60px;
+        width: 100px;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        bottom: 4px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .boiler_tres,
+    .boiler_dos {
+        position: absolute;
+        right: 0;
+        top: -60px;
+        width: 80px;
+    }
+
+    .boiler {
+        position: absolute;
+        right: 0;
+        width: 70px;
+        bottom: 0;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 30px;
+        height: 30px;
+        bottom: 1px;
+        top: auto;
+        opacity: 1;
+    }
+}
+
+
+
 @media (min-width: 600px) {
     * {
         font-size: 16px !important;
@@ -239,34 +304,9 @@ footer img {
     .boiler_dos {
         width: 200px;
     }
-}
 
-@media (max-width: 380px) {
-
-    .boiler_tres,
-    .boiler_dos {
-        position: absolute;
-        right: 0;
-        top: -60px;
-        width: 100px;
-    }
-
-}
-
-@media (max-width: 360px) {
-
-    .boiler_tres,
-    .boiler_dos {
-        position: absolute;
-        right: 0;
-        top: -60px;
-        width: 80px;
-    }
-
-    .boiler {
-        position: absolute;
-        right: 0;
-        width: 70px;
-        bottom: 0;
+    .carousel-control-next,
+    .carousel-control-prev {
+        bottom: 25px;
     }
 }
